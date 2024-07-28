@@ -25,7 +25,33 @@ public:
     }
 };
 
-// Way - II (Recursion)
+// Way - II (Recursion [Extra Space])
+class Solution
+{
+public:
+    void Reverse(stack<int> &st)
+    {
+        if (st.empty())
+            return;
+        int top = st.top();
+        st.pop();
+        Reverse(st);
+        stack<int> temp;
+        while (!st.empty())
+        {
+            temp.push(st.top());
+            st.pop();
+        }
+        st.push(top);
+        while (!temp.empty())
+        {
+            st.push(temp.top());
+            temp.pop();
+        }
+    }
+};
+
+// Way - III (Recursion [Constant Space])
 class Solution
 {
     // Remove the top until stack is empty, then insert the element and then insert the removed top
