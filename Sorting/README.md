@@ -1,4 +1,4 @@
-# Array
+# Sorting
 
 
 | Name       | Problem Link                       | Solution Link                      |
