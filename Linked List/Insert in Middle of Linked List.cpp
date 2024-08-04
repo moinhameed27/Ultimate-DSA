@@ -1,4 +1,4 @@
-// GFG :
+// GFG : https://www.geeksforgeeks.org/problems/insert-in-middle-of-linked-list/1
 
 // Way - I (Counting)
 class Solution
