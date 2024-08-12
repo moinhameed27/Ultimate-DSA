@@ -83,7 +83,7 @@ public:
         ans = ans.substr(start);
         return ans.empty() ? "0" : ans;
     }
-};
+}
 
 // Java----------------------------------------------------------------------------------------------------------------------------
 // Way - I (Brute Force)
@@ -122,7 +122,7 @@ class Solution
         num = num.substring(start);
         return num.isEmpty() ? "0" : num;
     }
-};
+}
 
 // Way - II (Stack)
 class Solution
@@ -167,4 +167,4 @@ class Solution
         ans = new StringBuilder(ans.substring(start));
         return ans.length() == 0 ? "0" : ans.toString();
     }
-};
+}
