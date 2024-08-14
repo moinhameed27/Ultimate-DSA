@@ -70,8 +70,7 @@ public:
 // Way - I (DFS)
 class Solution
 {
-private
-    void dfs(TreeNode root, List<Integer> ans)
+    private void dfs(TreeNode root, List<Integer> ans)
     {
         if (root == null)
             return;
@@ -79,8 +78,7 @@ private
         ans.add(root.val);
         dfs(root.right, ans);
     }
-public
-    List<Integer> inorderTraversal(TreeNode root)
+    public List<Integer> inorderTraversal(TreeNode root)
     {
         List<Integer> ans = new ArrayList<>();
         dfs(root, ans);
@@ -91,8 +89,7 @@ public
 // Way - II (Iterative [Stack])
 class Solution
 {
-private
-    void dfs(TreeNode root, List<Integer> ans)
+    private void dfs(TreeNode root, List<Integer> ans)
     {
         if (root == null)
             return;
@@ -111,8 +108,7 @@ private
             node = node.right;
         }
     }
-public
-    List<Integer> inorderTraversal(TreeNode root)
+    public List<Integer> inorderTraversal(TreeNode root)
     {
         List<Integer> ans = new ArrayList<>();
         dfs(root, ans);
