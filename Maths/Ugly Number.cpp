@@ -1,5 +1,11 @@
 // Leetcode : https://leetcode.com/problems/ugly-number/description/
 
+/*
+Ugly Number II
+Problem : https://leetcode.com/problems/ugly-number-ii/description/
+Solution : https://github.com/moinhameed27/Ultimate-DSA/blob/main/DP/Ugly%20Number%20II.cpp
+*/
+
 // [C++]----------------------------------------------------------------------------------------------------------------------------
 class Solution
 {
