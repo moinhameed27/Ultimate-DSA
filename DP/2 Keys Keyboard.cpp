@@ -173,7 +173,7 @@ class Solution
 {
     public int minSteps(int n)
     {
-        if (n == 1)
+        if (n == 1) 
             return 0;
         int currentA = 1, clipboard = 0;
         int remainingA = n, steps = 0;
