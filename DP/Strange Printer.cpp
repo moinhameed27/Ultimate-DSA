@@ -15,7 +15,7 @@ class Solution
         if (t[left][right] != -1)
             return t[left][right];
         
-        // Skip same consecutive characters
+        // Skip same consecutive characters 
         int i = left + 1;
         while (i <= right && s[i] == s[left])
             i++;
