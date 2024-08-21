@@ -10,3 +10,4 @@
 | Predict the Winner         | [Leetcode - 486](https://leetcode.com/problems/predict-the-winner/description/)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/DP/Predict%20the%20Winner.cpp)              |
 | Stone Game         | [Leetcode - 877](https://leetcode.com/problems/stone-game/description/)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/DP/Stone%20Game.cpp)              |
 | Stone Game II        | [Leetcode - 1140](https://leetcode.com/problems/stone-game-ii/description/)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/DP/Stone%20Game%20II.cpp)              |
+| Strange Printer        | [Leetcode - 664](https://leetcode.com/problems/strange-printer/description/)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/DP/Strange%20Printer.cpp)              |
