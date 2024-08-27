@@ -7,3 +7,4 @@
 | Next Greater Element.cpp          | [GFG](https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/Stack/Next%20Greater%20Element.cpp)              |
 | Reverse a Stack          | [GFG](https://www.geeksforgeeks.org/problems/reverse-a-stack/1)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/Stack/Reverse%20a%20Stack.cpp)              |
 | Remove K Digits          | [Leetcode - 402](https://leetcode.com/problems/remove-k-digits/description/)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/Stack/Remove%20K%20Digits.java)              |
+| Maximum Difference          | [GFG](https://www.geeksforgeeks.org/problems/maximum-difference-1587115620/1)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/Stack/Maximum%20Difference.cpp)              |
