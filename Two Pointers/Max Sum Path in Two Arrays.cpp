@@ -1,4 +1,4 @@
-// GFG : https://www.geeksforgeeks.org/problems/max-sum-path-in-two-arrays/1
+// GFG : https://www.geeksforgeeks.org/problems/max-sum-path-in-two-arrays/1 
 
 // [C++]-----------------------------------------------------------------------------------------------------------------------
 class Solution
