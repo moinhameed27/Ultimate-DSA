@@ -7,5 +7,6 @@
 | Balanced Binary Tree          | [Leetcode - 110](https://leetcode.com/problems/balanced-binary-tree/description/)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/Tree/Binary%20Tree/Balanced%20Binary%20Tree.cpp)              |
 | Diameter of Binary Tree          | [Leetcode - 543](https://leetcode.com/problems/diameter-of-binary-tree/description/)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/Tree/Binary%20Tree/Diameter%20of%20Binary%20Tree.cpp)              |
 | Check Completeness of a Binary Tree          | [Leetcode - 958](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/Tree/Binary%20Tree/Check%20Completeness%20of%20a%20Binary%20Tree.cpp)              |
+| Symmetric Tree          | [Leetcode - 101](https://leetcode.com/problems/symmetric-tree/description/)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/Tree/Binary%20Tree/Symmetric%20Tree.cpp)              |
 
  
