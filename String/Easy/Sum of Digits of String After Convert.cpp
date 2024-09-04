@@ -1,7 +1,7 @@
 // Leetcode : https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/
 
 // [C++]-----------------------------------------------------------------------------------------------------------------------
-class Solution
+class Solution 
 {
 public:
     int getLucky(string s, int k)
