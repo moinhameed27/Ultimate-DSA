@@ -21,7 +21,7 @@ public:
     }
 };
 
-// Way - II (DP + Memoization)
+// Way - II (Recursion + Memoization)
 class Solution
 {
 public:
