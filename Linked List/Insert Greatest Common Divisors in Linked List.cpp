@@ -1,7 +1,7 @@
 // Leetcode : https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/
 
 /*
-For further apporaches of finding GCD of two numbers, checkout https://github.com/moinhameed27/Ultimate-DSA/blob/main/Maths/GCD%20of%20two%20numbers.cpp
+For further approaches of finding GCD of two numbers, checkout https://github.com/moinhameed27/Ultimate-DSA/blob/main/Maths/GCD%20of%20two%20numbers.cpp
 */
 
 // [C++]-----------------------------------------------------------------------------------------------------------------------
