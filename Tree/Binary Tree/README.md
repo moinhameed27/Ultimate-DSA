@@ -10,5 +10,6 @@
 | Symmetric Tree          | [Leetcode - 101](https://leetcode.com/problems/symmetric-tree/description/)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/Tree/Binary%20Tree/Symmetric%20Tree.cpp)              |
 | Linked List in Binary Tree          | [Leetcode - 1367](https://leetcode.com/problems/linked-list-in-binary-tree/description/)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/Tree/Binary%20Tree/Linked%20List%20in%20Binary%20Tree.cpp)              |
 | Convert Tree into Mirror Tree          | [GFG](https://www.geeksforgeeks.org/problems/mirror-tree/1)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/Tree/Binary%20Tree/Convert%20Tree%20into%20Mirror%20Tree.cpp)              |
+| Binary Tree to DLL          | [GFG](https://www.geeksforgeeks.org/problems/binary-tree-to-dll/1)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/Tree/Binary%20Tree/Binary%20Tree%20to%20DLL.cpp)              |
 
  
