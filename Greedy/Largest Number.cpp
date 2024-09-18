@@ -3,6 +3,42 @@
 // GFG : https://www.geeksforgeeks.org/problems/largest-number-formed-from-an-array1117/1
 
 // [C++]-----------------------------------------------------------------------------------------------------------------------
+// Way - I (Selection Sort [Comparison])
+class Solution 
+{
+public:
+    string largestNumber(vector<int>& nums) 
+    {
+        int n = nums.size();
+        vector<string> v;
+        // Converting all numbers to strings
+        for(int num : nums)
+            v.push_back(to_string(num));
+        
+        for(int i = 0; i < n - 1; i++)
+        {
+            int maxIdx = i;
+            for(int j = i + 1; j < n; j++)
+            {
+                // s1 = "3", s2 = "30" --> "330" > "303"
+                if(v[j] + v[maxIdx] > v[maxIdx] + v[j])
+                    maxIdx = j;
+            }
+            swap(v[i], v[minIdx]);
+        }
+
+        // Corner Case
+        if(v[0] == "0")
+            return "0";
+
+        string ans;
+        for(string num : v)
+            ans += num;
+        return ans;
+    }
+};
+
+// Way - II (Built-In Sorting [Comparator])
 class Solution 
 {
 public:
@@ -28,6 +64,45 @@ public:
 };
 
 // [Java]-----------------------------------------------------------------------------------------------------------------------
+// Way - I (Selection Sort [Comparison])
+class Solution 
+{
+    public String largestNumber(int[] nums) 
+    {
+        int n = nums.length;
+        List<String> v = new ArrayList<>();
+        
+        // Converting all numbers to strings
+        for (int num : nums)
+            v.add(String.valueOf(num));
+        
+        // Sort using a custom comparator
+        for (int i = 0; i < n - 1; i++) 
+        {
+            int maxIdx = i;
+            for (int j = i + 1; j < n; j++) 
+            {
+                // s1 = "3", s2 = "30" --> "330" > "303"
+                if ((v.get(j) + v.get(maxIdx)).compareTo(v.get(maxIdx) + v.get(j)) > 0)
+                    maxIdx = j;
+            }
+            // Swap v[i] and v[maxIdx]
+            Collections.swap(v, i, maxIdx);
+        }
+
+        // Corner case for "000...0"
+        if (v.get(0).equals("0"))
+            return "0";
+
+        StringBuilder ans = new StringBuilder();
+        for (String num : v)
+            ans.append(num);
+
+        return ans.toString();
+    }
+}
+
+// Way - II (Built-In Sorting [Comparator])
 class Solution 
 {
     public String largestNumber(int[] nums) 
