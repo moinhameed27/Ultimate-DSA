@@ -10,3 +10,4 @@
 | Missing Number          | [Leetcode - 268](https://leetcode.com/problems/missing-number/) & [GFG](https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/Array/Easy/Missing%20Number.cpp)              |
 | Facing the Sun          | [GFG](https://www.geeksforgeeks.org/problems/facing-the-sun2126/1)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/Array/Easy/Facing%20the%20Sun.cpp)              |
 | Roof Top          | [GFG](https://www.geeksforgeeks.org/problems/roof-top-1587115621/1)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/Array/Easy/Roof%20Top.cpp)              |
+| Total count          | [GFG](https://www.geeksforgeeks.org/problems/total-count2415/1)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/Array/Easy/Total%20count.cpp)              |
