@@ -1,4 +1,4 @@
-// Leetcode : https://leetcode.com/problems/reverse-words-in-a-string/description/
+// Leetcode : https://leetcode.com/problems/sentence-similarity-iii/description/
 
 // [C++]-----------------------------------------------------------------------------------------------------------------------------
 // Way - I (Two Pointers + Vector + StringStream)
