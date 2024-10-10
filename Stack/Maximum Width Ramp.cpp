@@ -1,4 +1,4 @@
-// Leetcode :
+// Leetcode : https://leetcode.com/problems/maximum-width-ramp/
 
 // [C++]-----------------------------------------------------------------------------------------------------------------------------
 // Way - I (Brute Force) : O(n^2) time and O(1) space
