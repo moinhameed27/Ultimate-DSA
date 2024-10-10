@@ -29,12 +29,14 @@ public:
     {
         int n = nums.size();
         stack<int> st;
+        // Store index of elements and maintain the stack in increasing order of elements (Monotonic Stack)
         for (int i = 0; i < n; i++)
         {
             if (st.empty() || nums[i] < nums[st.top()])
                 st.push(i);
         }
         int maxWidth = 0;
+        // Traverse the array in reverse order and pop the elements from stack until the current element is greater than the top of stack
         for (int j = n - 1; j >= 0; j--)
         {
             while (!st.empty() && nums[st.top()] <= nums[j])
@@ -75,12 +77,14 @@ class Solution
     {
         int n = nums.length;
         Stack<Integer> st = new Stack<>();
+        // Store index of elements and maintain the stack in increasing order of elements (Monotonic Stack)
         for (int i = 0; i < n; i++)
         {
             if (st.isEmpty() || nums[i] < nums[st.peek()])
                 st.push(i);
         }
         int maxWidth = 0;
+        // Traverse the array in reverse order and pop the elements from stack until the current element is greater than the top of stack
         for (int j = n - 1; j >= 0; j--)
         {
             while (!st.isEmpty() && nums[st.peek()] <= nums[j])
