@@ -21,7 +21,59 @@ public:
     }
 };
 
-// Way - II (Stack) : O(n) time and O(n) space
+// Way - II (Better Brute Force) : O(n^2) time and O(1) space
+class Solution
+{
+public:
+    int maxWidthRamp(vector<int> &nums)
+    {
+        int n = nums.size();
+        int maxWidth = 0;
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = n - 1; j > i; j--)
+            {
+                if (nums[i] <= nums[j])
+                {
+                    maxWidth = max(maxWidth, j - i);
+                    break;
+                }
+            }
+        }
+        return maxWidth;
+    }
+};
+
+// Way - III (Two Pointers) : O(n) time and O(n) space
+class Solution
+{
+public:
+    int maxWidthRamp(vector<int> &nums)
+    {
+        int n = nums.size();
+        int maxWidth = 0;
+
+        // Storing the maximum element from right side for each element
+        vector<int> rightMax(n);
+        rightMax[n - 1] = nums[n - 1];
+        for (int i = n - 2; i >= 0; i--)
+            rightMax[i] = max(rightMax[i + 1], nums[i]);
+
+        int i = 0, j = 0;   // i for nums and j for rightMax
+        while (j < n)
+        {
+            // nums[i] > rightMax[j] means the current element is not a valid ramp
+            while (i < j && nums[i] > rightMax[j])
+                i++;
+
+            maxWidth = max(maxWidth, j - i);
+            j++;
+        }
+        return maxWidth;
+    }
+};
+
+// Way - IV (Stack) : O(n) time and O(n) space
 class Solution
 {
 public:
@@ -70,7 +122,57 @@ class Solution
     }
 }
 
-// Way - II (Stack) : O(n) time and O(n) space
+// Way - II (Better Brute Force) : O(n^2) time and O(1) space
+class Solution
+{
+    public int maxWidthRamp(int[] nums)
+    {
+        int n = nums.length;
+        int maxWidth = 0;
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = n - 1; j > i; j--)
+            {
+                if (nums[i] <= nums[j])
+                {
+                    maxWidth = Math.max(maxWidth, j - i);
+                    break;
+                }
+            }
+        }
+        return maxWidth;
+    }
+}
+
+// Way - III (Two Pointers) : O(n) time and O(n) space
+class Solution
+{
+    public int maxWidthRamp(int[] nums)
+    {
+        int n = nums.length;
+        int maxWidth = 0;
+
+        // Storing the maximum element from right side for each element
+        int[] rightMax = new int[n];
+        rightMax[n - 1] = nums[n - 1];
+        for (int i = n - 2; i >= 0; i--)
+            rightMax[i] = Math.max(rightMax[i + 1], nums[i]);
+
+        int i = 0, j = 0;   // i for nums and j for rightMax
+        while (j < n)
+        {
+            // nums[i] > rightMax[j] means the current element is not a valid ramp
+            while (i < j && nums[i] > rightMax[j])
+                i++;
+
+            maxWidth = Math.max(maxWidth, j - i);
+            j++;
+        }
+        return maxWidth;
+    }
+}
+
+// Way - IV (Stack) : O(n) time and O(n) space
 class Solution
 {
     public int maxWidthRamp(int[] nums)
