@@ -13,3 +13,4 @@
 | Total count          | [GFG](https://www.geeksforgeeks.org/problems/total-count2415/1)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/Array/Easy/Total%20count.cpp)              |
 | Rank Transform of an Array         | [Leetcode - 1331](https://leetcode.com/problems/rank-transform-of-an-array/description/)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/Array/Easy/Rank%20Transform%20of%20an%20Array.cpp)              |
 | Largest Pair Sum          | [GFG](https://www.geeksforgeeks.org/problems/pair-sum--120604/1)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/Array/Easy/Largest%20Pair%20Sum.cpp)              |
+| Reorganize The Array          | [GFG](https://www.geeksforgeeks.org/problems/reorganize-the-array4810/1)                | [Solution](https://github.com/moinhameed27/Ultimate-DSA/blob/main/Array/Easy/Reorganize%20The%20Array.cpp)              |
