@@ -1,4 +1,4 @@
-// GFG :
+// GFG : https://www.geeksforgeeks.org/problems/pairs-with-difference-k1713/1
 
 // [C++]-----------------------------------------------------------------------------------------------------------------------------
 // Way - I (Brute Force) : O(n ^ 2) time and O(1) space [TLE]
